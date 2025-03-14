@@ -7,12 +7,17 @@ body {
     margin: 0;
 }
 
+.img-container {
+    position: relative;
+    
+}
+
 .ani-container {
     position: absolute;
     height: 130px;
     z-index: 1;
-    left: 41%;
-    top: 54%
+    left: 28%;
+    top: 59%
     
 }
 
