@@ -3,14 +3,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: #f0eded;
     margin: 0;
 }
+
+.ani-container {
+    position: absolute;
+    height: 130px;
+    z-index: 1;
+    left: 41%;
+    top: 54%
+    
+}
+
 
 .pokeball {
     width: 400px;
     height: 400px;
-    background: linear-gradient(to bottom, rgb(255, 0, 0) 50%, white 50%);
+    background: linear-gradient(to bottom, rgb(255, 0, 0) 50%, rgba(255, 255, 255, 0.973) 50%);
     border-radius: 50%;
     border: 5px solid black;
     position: relative;
@@ -36,7 +46,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .input-window {
